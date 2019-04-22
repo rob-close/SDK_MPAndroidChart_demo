@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">"Erstellen"</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">"Aktualisieren"</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">"Hierbei handelt es sich um ein Mussfeld"</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">"Willkommen"</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">"Erkunden Sie mit dieser generierten App das SAP Cloud Platform SDK für Android"</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+    <string name="welcome_screen_footnote_label">"Sie können alle Funktionen im Demo-Modus ausprobieren."</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">"Abbrechen"</string>
+
+    <!-- XBUT: Text of the OK button -->
+    <string name="ok">"OK"</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">"LÖSCHEN"</string>
+
+    <!-- XMSG: The title of the delete dialog -->
+    <string name="delete_dialog_message">"Möchten Sie die ausgewählten Elemente wirklich löschen?"</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+    <string name="entity_download_error">"Fehler bei Vorgang im Hintergrund"</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">"Auffrischen"</string>
+
+    <!-- XMIT: Update menu item -->
+    <string name="menu_update">"Aktualisieren"</string>
+
+    <!-- XMIT: Delete menu item -->
+    <string name="menu_delete">"Löschen"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">"Headline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">"Subheadline"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">"Body text"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">"Footnote"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">"TAG1"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">"TAG2"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">"TAG3"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">"Item description"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">"Status"</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">"Error"</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="read_failed">"Download fehlgeschlagen"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">"Download-Vorgang fehlgeschlagen; bitte versuchen Sie, die Anwendung neu zu starten."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="create_failed">"Erstellung fehlgeschlagen"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">"Erstellvorgang fehlgeschlagen; bitte versuchen Sie die Ausführung zu einem späteren Zeitpunkt noch einmal."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed">"Aktualisierung fehlgeschlagen"</string>
+    <string name="update_failed_detail">"Aktualisierungsvorgang fehlgeschlagen; frischen Sie die lokalen bitte Daten auf und versuchen Sie die Durchführung zu einem späteren Zeitpunkt noch einmal."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_failed">"Löschen fehlgeschlagen"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">"Löschvorgang fehlgeschlagen; frischen Sie die lokalen Daten auf und versuchen Sie die Durchführung zu einem späteren Zeitpunkt noch einmal."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="log_upload_failed">"Protokoll-Upload fehlgeschlagen"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="log_upload_failed_detail">"Für den Protokoll-Upload wurde eine falsch formatierte URL empfangen. Die Anwendung funktioniert unter Umständen weiterhin, es werden jedoch keine Protokolle auf den Server hochgeladen."</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="push_error">"Push-Fehler"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_token_upload_failed_detail">"Push-Token konnte nicht auf den SAP-Server hochgeladen werden. Die Push-Funktion arbeitet nicht ordnungsgemäß. Sie erhalten keine Push-Nachrichten."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_invalid_push_format">"Es wurde eine Push-Nachricht empfangen, die jedoch ein ungültiges Format aufweist und daher nicht verarbeitet werden konnte."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="policy_download_failed">"Download der Richtlinien fehlgeschlagen"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="policy_download_failed_details">"Download der Client-Richtlinien vom Server fehlgeschlagen; es wird eine Standardrichtlinie verwendet."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="settings_error">"Fehler in Bezug auf Einstellungen"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="settings_download_failed_detail">"Die Einstellungen vom Server konnten nicht heruntergeladen werden. Die Anwendung wird mit fest programmierten Standardwerten arbeiten."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="secure_store_error">"Fehler in Bezug auf sicheren Speicher"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="secure_store_open_default_error_detail">"Der sichere Speicher konnte mit dem Standard-Passcode nicht geöffnet werden."</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="passcode_change_error">"Fehler bei Passcode-Änderung"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail">"Der Passcode für den sicheren Speicher konnte nicht geändert werden. Die Anwendung arbeitet weiterhin mit dem letzten Passcode."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail_default">"Es konnte kein Standard-Passcode festgelegt werden. Die Anwendung arbeitet weiterhin mit dem letzten Benutzer-Passcode."</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="error_back_navigation">"Der Anwendung ist Passcode-geschützt. Sie startet nicht ohne die Eingabe des korrekten Passcodes."</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">"Einstellungen"</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">"Einstellungen"</string>
+
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">"Passcode verwalten"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="invalid_passcode">"Ungültiger Passcode"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="passcode_error">"Passcode-Fehler"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="failed_to_change_passcode">"Ändern des Passcodes fehlgeschlagen"</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="successful_passcode_change">"Der Passcode wurde erfolgreich geändert"</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="disabled_passcode">"Wenn der Passcode deaktiviert ist, kann der Standard-Passcode den sicheren Speicher nicht entsperren."</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="invalid_passcode_detail">"Der bereitgestellte Passcode kann zum Erzeugen des sicheren Speichers nicht verwendet werden."</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="new_policy_required">"Neuer Passcode erforderlich"</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_policy_changed">"Der Passcode ist abgelaufen oder die Passcode-Richtlinien haben sich geändert. Sie müssen einen neuen Passcode festlegen."</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">"Protokoll hochladen"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">"Protokollebene"</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">"Protokollebene wählen"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">"Keine"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_fatal">"Schwerwiegend"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">"Fehler"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">"Warnung"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">"Info"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">"Debug"</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">"Pfad"</string>
+    <!-- XMSG: Authentication error message -->
+    <string name="authentication_failed">"Authentifizierung fehlgeschlagen"</string>
+
+    <string-array name="log_levels">
+      <item>@string/log_level_none</item>
+      <item>@string/log_level_fatal</item>
+      <item>@string/log_level_error</item>
+      <item>@string/log_level_warning</item>
+      <item>@string/log_level_info</item>
+      <item>@string/log_level_debug</item>
+      <item>@string/log_level_path</item>
+    </string-array>
+
+</resources>

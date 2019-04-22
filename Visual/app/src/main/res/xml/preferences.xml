@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <ListPreference
+      android:key="@string/log_level"
+      android:title="@string/log_level"
+      android:summary="@string/log_level_debug"
+      android:dialogTitle="@string/dialog_title_choose_log_level"
+      android:entries="@array/log_levels"
+      android:entryValues="@array/log_levels"
+      android:defaultValue="@string/log_level_debug" />
+   <Preference
+      android:key="@string/upload_log"
+      android:title="@string/upload_log" />
+  <Preference
+      android:key="@string/manage_passcode"
+      android:title="@string/manage_passcode" />
+</PreferenceScreen>

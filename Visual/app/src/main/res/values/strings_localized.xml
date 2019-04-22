@@ -1,0 +1,204 @@
+<resources>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">Create</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">Update</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">This is a mandatory field</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">Welcome</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">Explore the SAP Cloud Platform SDK for Android with this generated app</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+    <string name="welcome_screen_footnote_label">You can try out the SDK features in demo mode.</string>
+
+    <!-- XBUT: Text of the Cancel button -->
+    <string name="cancel">Cancel</string>
+
+    <!-- XBUT: Text of the OK button -->
+    <string name="ok">OK</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">DELETE</string>
+
+    <!-- XMSG: The title of the delete dialog -->
+    <string name="delete_dialog_message">Do you really want to delete the selected items?</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+    <string name="entity_download_error">Error occurred during background operation.</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">Refresh</string>
+
+    <!-- XMIT: Update menu item -->
+    <string name="menu_update">Update</string>
+
+    <!-- XMIT: Delete menu item -->
+    <string name="menu_delete">Delete</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">Headline</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">Subheadline</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">Body text</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">Footnote</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">TAG1</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">TAG2</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">TAG3</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">Item description</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">Status</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">Error</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="read_failed">Download failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">Download operation failed, please try to restart the application.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="create_failed">Create failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">Create operation failed, please try to execute it again later.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed">Update failed</string>
+    <string name="update_failed_detail">Update operation failed, please refresh the local data and try to perform it again later.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_failed">Delete failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">Delete operation failed, please refresh the local data and try to perform it again later.</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">Log is uploaded to the server.</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+    <string name="log_upload_failed">Log upload failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="log_upload_failed_detail">Mal-formed URL was received for log upload. The application might still work, but logs won\'t be uploaded to the server.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="push_error">Push error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_token_upload_failed_detail">Push token couldn\'t be uploaded to the SAP server, the push feature won\'t work. You won\'t receive push messages.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_invalid_push_format">Push message received, but its format was invalid, so it couldn\'t be processed.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="policy_download_failed">Policy download failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="policy_download_failed_details">Client policy download from the server failed, a default one will be used.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="settings_error">Settings error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="settings_download_failed_detail">Settings from server couldn\'t be downloaded, application will operate with hard-coded default values.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="secure_store_error">Secure store error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="secure_store_open_default_error_detail">Secure store with default passcode couldn\'t be opened.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="passcode_change_error">Passcode change error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail">Secure store passcode couldn\'t be changed. Application still works with the latest one.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail_default">Default passcode couldn\'t be set. Application still works with the latest user passcode.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="error_back_navigation">The application is passcode protected, it won\'t start without providing the proper passcode.</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">Settings</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">Manage Passcode</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="invalid_passcode">Invalid Passcode</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="passcode_error">Passcode error</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="failed_to_change_passcode">Failed to change passcode</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="successful_passcode_change">The passcode is successfully changed</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="disabled_passcode">Default passcode couldn\'t unlock secure store when the passcode is disabled.</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="invalid_passcode_detail">Provided passcode couldn\'t be used to create the secure store.</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="new_policy_required">New Passcode Required</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_policy_changed">The passcode has expired or the passcode policy has changed. You must set a new passcode.</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">Upload Log</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">Log Level</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">Choose Log Level</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">None</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_fatal">Fatal</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">Error</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">Warning</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">Info</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">Debug</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">Path</string>
+    <!-- XMSG: Authentication error message -->
+    <string name="authentication_failed">Authentication failed</string>
+
+    <string-array name="log_levels">
+      <item>@string/log_level_none</item>
+      <item>@string/log_level_fatal</item>
+      <item>@string/log_level_error</item>
+      <item>@string/log_level_warning</item>
+      <item>@string/log_level_info</item>
+      <item>@string/log_level_debug</item>
+      <item>@string/log_level_path</item>
+    </string-array>
+
+</resources>

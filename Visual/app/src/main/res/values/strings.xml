@@ -1,0 +1,18 @@
+<resources>
+    <string name="application_name">Visual</string>
+    <string name="eset_salesorderheaders">SalesOrderHeaders</string>
+    <string name="eset_stock">Stock</string>
+    <string name="eset_customers">Customers</string>
+    <string name="eset_purchaseorderitems">PurchaseOrderItems</string>
+    <string name="eset_salesorderitems">SalesOrderItems</string>
+    <string name="eset_producttexts">ProductTexts</string>
+    <string name="eset_suppliers">Suppliers</string>
+    <string name="eset_productcategories">ProductCategories</string>
+    <string name="eset_purchaseorderheaders">PurchaseOrderHeaders</string>
+    <string name="eset_products">Products</string>
+    <string name="title_activity_barchart">Horizontal Barchart</string>
+    <string name="title_activity_vbarchart">Vertical Barchart</string>
+    <string name="title_activity_linechart">Linechart</string>
+    <string name="title_activity_combinedchart">Combined chart</string>
+
+</resources>

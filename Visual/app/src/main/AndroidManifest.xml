@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.company.visual">
+
+    <application
+        android:name=".app.SAPWizardApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".logon.LogonActivity"
+            android:label="@string/application_name"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mdui.EntitySetListActivity"
+            android:label="@string/application_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.launchscreen.LaunchScreenActivity"
+            android:label="@string/application_name">
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.visual.logon.LaunchScreenActionHandlerImpl" />
+        </activity>
+        <activity
+            android:name=".mdui.ItemListActivity"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mdui.EntitySetListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mdui.EntitySetListActivity" />
+        </activity>
+        <activity
+            android:name=".mdui.ItemDetailActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".mdui.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mdui.ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".mdui.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/settings_activity_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".mdui.EntitySetListActivity"
+            android:screenOrientation="sensor"></activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.SetPasscodeActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".logon.LogonActivity">
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.visual.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.visual.logon.PasscodeValidationActionHandler" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.ConfirmPasscodeActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".logon.LogonActivity">
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.visual.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.visual.logon.PasscodeValidationActionHandler" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.EnterPasscodeActivity"
+            android:label="@string/application_name"
+            android:parentActivityName=".logon.LogonActivity">
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.visual.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.visual.logon.PasscodeValidationActionHandler" />
+        </activity>
+        <activity
+            android:name="com.sap.cloud.mobile.onboarding.passcode.ChangePasscodeActivity"
+            android:label="@string/application_name">
+            <meta-data
+                android:name="action_handler"
+                android:value="com.company.visual.logon.PasscodeActionHandlerImpl" />
+            <meta-data
+                android:name="validation_action_handler"
+                android:value="com.company.visual.logon.PasscodeValidationActionHandlerImpl" />
+        </activity>
+        <activity
+            android:name=".app.ErrorNotificationDialog"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.MinWidth"></activity>
+        <activity
+            android:name=".mdui.BarcharActivity"
+            android:label="@string/title_activity_barchart"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".mdui.VBarchartActivity"
+            android:label="@string/title_activity_vbarchart"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".mdui.LinechartActivity"
+            android:label="@string/title_activity_linechart"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".mdui.CombinedchartActivity"
+            android:label="@string/title_activity_combinedchart"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

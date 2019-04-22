@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.sap.odata.android'
+
+buildscript {
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath group: 'com.sap.cloud.android', name: 'odata-android-gradle-plugin', version: sdkVersion
+    }
+}
+
+odata {
+    verbose true
+    services {
+        // connection id: com.sap.android.wizard.visual
+        espmcontainer {
+            schemaFile file("src/main/res/raw/com_sap_android_wizard_visual.xml")
+            packageName "com.sap.cloud.android.odata.espmcontainer"
+            serviceClass "ESPMContainer"
+        }
+    }
+}
+
+
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.company.visual"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+configurations {
+    all {
+        exclude module: 'httpclient'
+        exclude module: 'commons-logging'
+        exclude module: 'opengl-api'
+        exclude module: 'xmlParserAPIs'
+        exclude module: 'xpp3'
+        exclude module: 'android'
+    }
+}
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    // Android framework dependencies
+    implementation group: 'com.android.support', name: 'appcompat-v7', version: androidSupportVersion
+    implementation group: 'com.android.support', name: 'support-v4', version: androidSupportVersion
+    implementation group: 'com.android.support', name: 'recyclerview-v7', version: androidSupportVersion
+    implementation group: 'com.android.support', name: 'design', version: androidSupportVersion
+
+    // JUnit dependency
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    testImplementation 'junit:junit:4.12'
+
+    // SAP Cloud Android SDK dependencies
+    implementation group: 'com.sap.cloud.android', name: 'fiori', version: sdkVersion
+    implementation group: 'com.sap.cloud.android', name: 'onboarding', version: sdkVersion
+    implementation group: 'com.sap.cloud.android', name: 'odata', version: sdkVersion
+    implementation group: 'com.sap.cloud.android', name: 'foundation', version: sdkVersion
+
+    // Logging dependency
+    //implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'com.github.tony19:logback-android:1.1.1-11'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+
+
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.google.code.findbugs'
+    })
+
+    androidTestImplementation('com.android.support.test.espresso:espresso-contrib:3.0.1') {
+        exclude module: 'support-annotations'
+        exclude module: 'support-v4'
+        exclude module: 'support-v13'
+        exclude module: 'recyclerview-v7'
+        exclude module: 'design'
+    }
+}
